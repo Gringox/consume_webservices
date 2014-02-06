@@ -1,0 +1,11 @@
+%h1
+  Aplicacion de Monitoreo
+  = Time.now
+%p
+  Formula de disponibilidad: D(servicio) = D(servidor) * D(enlace) * D(router)
+%p
+  Resultado=&gt;
+  = @result
+%p
+  = @msg
+= button_to 'Revisar Nuevamente'

@@ -1,0 +1,2 @@
+module SebastianHelper
+end
