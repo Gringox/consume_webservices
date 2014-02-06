@@ -1,7 +1,7 @@
 == README
 
-Prefix Verb             URI  Pattern                            Controller#Action
- consumer_check_service GET  /consumer/check_service(.:format)  consumer#check_service
-                        POST /consumer/check_service(.:format)  consumer#check_service
-sebastian_check_service GET  /sebastian/check_service(.:format) sebastian#check_service
-                        POST /sebastian/check_service(.:format) sebastian#check_service
+Prefix Verb               URI  Pattern                            Controller#Action
+  consumer_check_service  GET  /consumer/check_service(.:format)  consumer#check_service
+                          POST /consumer/check_service(.:format)  consumer#check_service
+  sebastian_check_service GET  /sebastian/check_service(.:format) sebastian#check_service
+                          POST /sebastian/check_service(.:format) sebastian#check_service
